@@ -1,0 +1,32 @@
+# Bytecode e caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Build e pacotes
+build/
+dist/
+*.egg-info/
+
+# Ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Saídas geradas pelo Termshot
+termshot_*.png
+termshot_*.svg
+termshot_batch/
