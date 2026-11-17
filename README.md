@@ -31,33 +31,13 @@ O Termshot executa o comando em um pseudo-terminal (PTY), exibe sua saída em te
 
 ## Instalação
 
-### Instalação como comando
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/Sh11td0wn/termshot.git
 cd termshot
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install .
+pip install -r requirements.txt
 ```
 
-Após a instalação, o comando `termshot` estará disponível no ambiente virtual.
-
-### Execução direta pelo script
-
-```bash
-python3 -m pip install -r requirements.txt
-chmod +x termshot.py
-./termshot.py "id"
-```
-
-Em algumas distribuições, o CairoSVG pode exigir bibliotecas do sistema. Em Debian, Ubuntu e derivados:
-
-```bash
-sudo apt update
-sudo apt install libcairo2 libffi-dev
-```
 
 ## Uso rápido
 
