@@ -35,7 +35,7 @@ O Termshot executa o comando em um pseudo-terminal (PTY), exibe sua saída em te
 ```bash
 git clone https://github.com/Sh11td0wn/termshot.git
 cd termshot
-pip install -r requirements.txt
+pipx install .
 ```
 
 
